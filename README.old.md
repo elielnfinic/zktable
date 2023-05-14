@@ -1,4 +1,0 @@
-# zkTable  
-
-Privacy on Blockchain. 
-
