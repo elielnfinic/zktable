@@ -1,3 +1,16 @@
+import Layout from "../../components/Layout";
+import FormsList from "./components/FormsList";
+
 export default function Home(){
-    return <div>Home</div>
+    return (
+        <Layout title="Your forms">
+            <div>
+                Start new form
+            </div>
+
+            <div>
+                <FormsList/>
+            </div>
+        </Layout>
+    )
 }
